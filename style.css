@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+    /* color: white; */
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: gray; */
+    height: 550px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+.main{
+    width: 600px;
+    height: 40px;
+    padding-left: 8px;
+    padding-top: 8px;
+    border-bottom: solid;
+    border-color: black;
+}
+.first{
+    display: flex;
+    background: green;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-style: solid;
+    border-color: black;
+    width: 472px;
+}
+.second{
+    margin-left: 10px;
+    margin-right: 16px;
+    justify-content: space-around;
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('cookies.jpg');
+    
+}
+.third{
+    margin: 0px 16px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('cookies.jpg');
+    
+}
+.fourth{
+    margin: 0px 16px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('cookies.jpg');
+}
+.fifth{
+    margin: 0px 16px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-color: orange;
+}
+.sixth{
+    margin: 0px 16px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-color:red;
+}
+.seventh{
+    margin: 0px 16px;
+    width: 125px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+}
